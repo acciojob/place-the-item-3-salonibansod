@@ -1,2 +1,22 @@
+/* Style for the holder container */
+.holder {
+  display: flex; /* Enable Flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-evenly; /* Distribute items evenly in a row */
+  gap: 10px; /* Add space between items (optional) */
+  padding: 10px; /* Optional padding for the container */
+  background-color: #f0f0f0; /* Optional background for the container */
+}
+
+/* Style for individual items */
+.item {
+  flex: 0 1 150px; /* Ensure a minimum size for items, but allow them to shrink if needed */
+  text-align: center; /* Center text inside the items */
+  padding: 20px; /* Add padding inside each item */
+  background-color: #007bff; /* Item background color */
+  color: white; /* Text color */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for aesthetics */
+}
 
 /* Your CSS Code here. */
